@@ -27,18 +27,13 @@ function handleClick(){
     <>
      <h1 id="title">Data Fetching</h1>
     <div className={isClick ? "border border-primary text-center "  : undefined}>
- <div>
     <ListGroup  >
     {isClick ?  <ListGroup.Item >
       {arrayDataItems} </ListGroup.Item>:undefined}
       </ListGroup>
-
-  </div>
     </div>
     <Button className="b1" onClick={handleClick}>
       {isClick? 'Remove data':'Fetch data'}</Button>
-
-  
     </>
   );
 }
