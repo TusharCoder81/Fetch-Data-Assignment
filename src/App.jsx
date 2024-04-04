@@ -18,9 +18,9 @@ function handleClick(){
 }
   
   const arrayDataItems = player.map(player => 
-    <ListGroup variant="flush" key={player.id}>
+    <div key={player.id}>
        <span>{player.age} : {player.name}</span>
-      </ListGroup>
+       </div>
   )
 
   return (
@@ -28,8 +28,8 @@ function handleClick(){
      <h1 id="title">Data Fetching</h1>
     <div className={isClick ? "border border-primary text-center "  : undefined}>
  <div>
-    <ListGroup >
-    {isClick ?  <ListGroup.Item>
+    <ListGroup  >
+    {isClick ?  <ListGroup.Item >
       {arrayDataItems} </ListGroup.Item>:undefined}
       </ListGroup>
 
