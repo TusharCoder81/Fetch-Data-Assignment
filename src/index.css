@@ -1,0 +1,18 @@
+
+#title {
+  color: rgb(0, 9, 128);
+  margin-left: 650px;
+
+ 
+}
+.b1{
+  display: flex;
+  color: aliceblue;
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  margin-left: 700px;
+  align-items: center;
+}
+
+
